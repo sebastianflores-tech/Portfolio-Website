@@ -20,7 +20,7 @@ body {
 
 #banner {
   padding: 12px 0;
-  background: linear-gradient(135deg, #89C8F0, #5EC1FF);
+  background: linear-gradient( #89C8F0, #5EC1FF);
 }
 
 .nav {
@@ -34,8 +34,8 @@ a.button {
   display: inline-block;
   padding: 8px 12px;
   text-decoration: none;
-  background: #111;
-  color: #fff;
+  background: black;
+  color: white;
   border-radius: 4px;
 }
 
@@ -120,8 +120,8 @@ footer { padding: 16px 0; }
   padding: 10px 16px;
   border: none;
   border-radius: 6px;
-  background: #111;
-  color: #fff;
+  background: black;
+  color: white;
   cursor: pointer;
   transition: transform .2s;
 }
