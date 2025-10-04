@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* home/index */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
+  background-color: gray;
+}
+
+#banner {
+  padding: 12px 0;
+  background: linear-gradient(135deg, darkgray, lightblue);
+}
+
+.nav {
+  list-style: none;
+  margin: 10px 15px;
+  padding: 0;
+}
+.nav li { display: inline-block; margin-right: 8px; }
+
+a.button {
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  background: #111;
+  color: #fff;
+  border-radius: 4px;
+}
+
+h1,h2,h3,p,li { margin-left: 15px; margin-top: 0; }
+
+footer { padding: 16px 0; }
+
+/* about me */
+
+#profile {
+  display: block;
+  margin: 15px auto;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 1s;
+}
+#profile:hover { transform: scale(1.05) rotate(-2deg); }
+
+.intro {
+  max-width: 800px;
+  margin: 10px auto 24px;
+  text-align: center;
+}
+
+#intro {
+  display: block;
+  margin: 10px auto 40px;
+  max-width: 100%;
+  width: 640px;
+  border: 2px solid white;
+}
+
+/* project */
+
+.project {
+  background-color: #91ACBD;
+  color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 4px 4px 6px black;
+  transition: transform 0.5s, background-color 0.5s;
+}
+
+.project:hover {
+  transform: scale(1.02);
+  background-color: #72818A;
+}
+
+/* contact */
+
+#contact-form {
+  max-width: 720px;
+  margin: 10px auto 40px;
+  padding: 16px;
+  background: #91ACBD;
+  border-radius: 8px;
+  box-shadow: 4px 4px 6px black
+}
+
+#contact-form label {
+  display: block;
+  margin: 10px 0 6px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  color: black;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  margin-top: 14px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  transition: transform .2s;
+}
+#contact-form button:hover { transform: translateY(-2px); }
