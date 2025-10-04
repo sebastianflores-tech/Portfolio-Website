@@ -20,7 +20,7 @@ body {
 
 #banner {
   padding: 12px 0;
-  background: linear-gradient(135deg, darkgray, lightblue);
+  background: linear-gradient(135deg, #89C8F0, #5EC1FF);
 }
 
 .nav {
@@ -94,7 +94,7 @@ footer { padding: 16px 0; }
   max-width: 720px;
   margin: 10px auto 40px;
   padding: 16px;
-  background: #91ACBD;
+  background: linear-gradient(135deg, #89C8F0, #5EC1FF);
   border-radius: 8px;
   box-shadow: 4px 4px 6px black
 }
