@@ -73,7 +73,7 @@ footer { padding: 16px 0; }
 /* project */
 
 .project {
-  background-color: #91ACBD;
+  background-color: #5EC1FF;
   color: white;
   margin: 20px auto;
   padding: 20px;
@@ -85,7 +85,7 @@ footer { padding: 16px 0; }
 
 .project:hover {
   transform: scale(1.02);
-  background-color: #72818A;
+  background-color: #89C8F0;
 }
 
 /* contact */
