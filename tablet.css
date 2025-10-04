@@ -1,0 +1,11 @@
+#content h2 {
+  text-align: center;
+}
+.project {
+  max-width: 92%;
+  margin: 16px auto;
+}
+#profile {
+  width: 240px;
+  height: 240px;
+}

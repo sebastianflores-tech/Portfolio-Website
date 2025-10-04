@@ -1,0 +1,17 @@
+#content h2, #content h3 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+#profile {
+  width: 200px;
+  height: 200px;
+  margin: 12px auto;
+}
+#intro {
+  width: 100%;
+  margin: 10px auto;
+}
+.project, #contact-form {
+  margin: 12px auto;
+  padding: 10px;
+}
